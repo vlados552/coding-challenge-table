@@ -21,7 +21,7 @@ The goal of this challenge is to recreate the table component based on the Figma
 
 ## Figma Design
 
-You can access the Figma design file [here](https://www.figma.com/). Make sure you follow the design closely when replicating the table.
+You can access the Figma design file [here](https://www.figma.com/design/toFy9zAvXCFwOqT8xIly0N/Test-Table-Lidabro-Orders?node-id=0-12121&m=dev&t=Yx7rNalq6AEaHqmw-1). Make sure you follow the design closely when replicating the table.
 
 ## Expected Deliverables
 
