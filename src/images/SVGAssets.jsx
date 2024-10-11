@@ -284,3 +284,173 @@ export const EyeSVG = (props) => (
         />
     </svg>
 );
+export const SearchSVG = (props) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 30 30"
+    width="20px"
+    height="20px"
+    cursor={"pointer"}
+  >
+    <path d="M 13 3 C 7.4889971 3 3 7.4889971 3 13 C 3 18.511003 7.4889971 23 13 23 C 15.396508 23 17.597385 22.148986 19.322266 20.736328 L 25.292969 26.707031 A 1.0001 1.0001 0 1 0 26.707031 25.292969 L 20.736328 19.322266 C 22.148986 17.597385 23 15.396508 23 13 C 23 7.4889971 18.511003 3 13 3 z M 13 5 C 17.430123 5 21 8.5698774 21 13 C 21 17.430123 17.430123 21 13 21 C 8.5698774 21 5 17.430123 5 13 C 5 8.5698774 8.5698774 5 13 5 z" />
+  </svg>
+);
+export const FileSVG = (props) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 64 64"
+    width="40px"
+    height="40px"
+  >
+    <g>
+      <path d="M53,4H23.657c-1.335,0-2.591,0.52-3.535,1.464l-8.658,8.657C10.52,15.066,10,16.322,10,17.657V57c0,1.654,1.346,3,3,3l40,0c1.654,0,3-1.346,3-3V7C56,5.346,54.654,4,53,4z M12.878,15.535l8.657-8.657C21.678,6.737,21.834,6.611,22,6.501V15c0,0.551-0.449,1-1,1h-8.501C12.608,15.835,12.735,15.679,12.878,15.535z M54,57c0,0.551-0.449,1-1,1l-40,0c-0.551,0-1-0.449-1-1V18h9c1.654,0,3-1.346,3-3V6h29c0.551,0,1,0.449,1,1V57z" />
+      <path d="M45,22h-4c-0.552,0-1,0.448-1,1s0.448,1,1,1h4c0.552,0,1-0.448,1-1S45.552,22,45,22z" />
+      <path d="M21,24h16c0.552,0,1-0.448,1-1s-0.448-1-1-1H21c-0.552,0-1,0.448-1,1S20.448,24,21,24z" />
+      <path d="M21,28h20c0.552,0,1-0.448,1-1s-0.448-1-1-1H21c-0.552,0-1,0.448-1,1S20.448,28,21,28z" />
+      <path d="M33,36H21c-0.552,0-1,0.448-1,1s0.448,1,1,1h12c0.552,0,1-0.448,1-1S33.552,36,33,36z" />
+      <path d="M43,32H21c-0.552,0-1,0.448-1,1s0.448,1,1,1h22c0.552,0,1-0.448,1-1S43.552,32,43,32z" />
+      <path d="M15,50c-0.552,0-1,0.448-1,1v2c0,0.552,0.448,1,1,1s1-0.448,1-1v-2C16,50.448,15.552,50,15,50z" />
+      <path d="M20,50c-0.552,0-1,0.448-1,1v2c0,0.552,0.448,1,1,1s1-0.448,1-1v-2C21,50.448,20.552,50,20,50z" />
+      <path d="M25,50c-0.552,0-1,0.448-1,1v2c0,0.552,0.448,1,1,1s1-0.448,1-1v-2C26,50.448,25.552,50,25,50z" />
+      <path d="M30,50c-0.552,0-1,0.448-1,1v2c0,0.552,0.448,1,1,1s1-0.448,1-1v-2C31,50.448,30.552,50,30,50z" />
+      <path d="M35,50c-0.552,0-1,0.448-1,1v2c0,0.552,0.448,1,1,1s1-0.448,1-1v-2C36,50.448,35.552,50,35,50z" />
+      <path d="M40,50c-0.552,0-1,0.448-1,1v2c0,0.552,0.448,1,1,1s1-0.448,1-1v-2C41,50.448,40.552,50,40,50z" />
+      <path d="M45,50c-0.552,0-1,0.448-1,1v2c0,0.552,0.448,1,1,1s1-0.448,1-1v-2C46,50.448,45.552,50,45,50z" />
+      <path d="M50,50c-0.552,0-1,0.448-1,1v2c0,0.552,0.448,1,1,1s1-0.448,1-1v-2C51,50.448,50.552,50,50,50z" />
+    </g>
+  </svg>
+);
+export const CrossSvg = (props) => (
+  <svg
+    width="20px"
+    height="20px"
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M16 8L8 16M8.00001 8L16 16"
+      stroke="rgb(217, 45, 32)"
+      strokeWidth="1.5"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+  </svg>
+);
+export const CheckSvg = (props) => (
+  <svg
+    width="16px"
+    height="16px"
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M4 12.6111L8.92308 17.5L20 6.5"
+      stroke="rgb(7, 148, 85)"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+  </svg>
+);
+
+export const ReverseSvg = (props) => (
+  <svg
+    width="16px"
+    height="16px"
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M4 7H14C17.3137 7 20 9.68629 20 13C20 16.3137 17.3137 19 14 19H4M4 7L8 3M4 7L8 11"
+      stroke="rgb(71, 84, 103)"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+  </svg>
+);
+
+export const ArrowDownSvg = (props) => (
+  <svg
+    width="16px"
+    height="16px"
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    cursor={"pointer"}
+  >
+    <path
+      d="M7.33199 16.3154C6.94146 15.9248 6.3083 15.9248 5.91777 16.3154C5.52725 16.7059 5.52725 17.339 5.91777 17.7296L10.5834 22.3952C11.3644 23.1762 12.6308 23.1762 13.4118 22.3952L18.0802 17.7267C18.4707 17.3362 18.4707 16.703 18.0802 16.3125C17.6897 15.922 17.0565 15.922 16.666 16.3125L13 19.9786V2.0001C13 1.44781 12.5523 1.0001 12 1.0001C11.4477 1.0001 11 1.44781 11 2.0001V19.9833L7.33199 16.3154Z"
+      fill="rgb(71, 84, 103)"
+    />
+  </svg>
+);
+export const ArrowUpSvg = (props) => (
+  <svg
+    width="16px"
+    height="16px"
+    viewBox="0 0 24 24"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    cursor={"pointer"}
+  >
+    <path
+      d="M12 20L12 4M12 4L18 10M12 4L6 10"
+      stroke="rgb(71, 84, 103)"
+      strokeWidth="1.5"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+  </svg>
+);
+
+export const ArrowleftSvg = (props) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 24 24"
+    width="16px"
+    height="16px"
+  >
+    <path
+      d="M3.99982 11.9998L19.9998 11.9998"
+      stroke="rgb(71, 84, 103)"
+      strokeWidth="1.5"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+    <path
+      d="M8.99963 17C8.99963 17 3.99968 13.3176 3.99966 12C3.99965 10.6824 8.99966 7 8.99966 7"
+      stroke="rgb(71, 84, 103)"
+      strokeWidth="1.5"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+  </svg>
+);
+
+export const ArrowRightSvg = (props) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 24 24"
+    width="16px"
+    height="16px"
+  >
+    <path
+      d="M20.0001 11.9998L4.00012 11.9998"
+      stroke="rgb(71, 84, 103)"
+      strokeWidth="1.5"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+    <path
+      d="M15.0003 17C15.0003 17 20.0002 13.3176 20.0002 12C20.0002 10.6824 15.0002 7 15.0002 7"
+      stroke="rgb(71, 84, 103)"
+      strokeWidth="1.5"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+  </svg>
+);
